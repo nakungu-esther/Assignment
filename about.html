@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="code.css">
+  <style>
+    /* Custom CSS */
+    .mission-header, .vision-header {
+      color: #2c3e50;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 20px;
+    }
+    .mission-paragraph, .vision-paragraph {
+      color: #34495e;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .card-custom {
+      margin-bottom: 30px;
+      border: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card-custom:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="blog1.html">Blog2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="indet.html">Contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- About Us Content -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-8">
+        <!-- Mission Card -->
+        <div class="card card-custom">
+          <div class="card-body">
+            <h2 class="mission-header">Our Mission</h2>
+            <p class="mission-paragraph">
+              Developing skills to inspire, motivate, and guide others, learning effective communication, decision-making, and problem-solving strategies, understanding different leadership styles and building emotional intelligence, empathy, and self-awareness. Improving self-awareness, self-regulation, and self-motivation, understanding the basics of computer networks, protocols, and infrastructures. Learning about IP addresses, DNS, and web servers, familiarizing yourself with internet technologies like HTTP, HTML, CSS, and JavaScript, exploring online safety, security, and digital citizenship.
+            </p>
+          </div>
+        </div>
+
+        <!-- Vision Card -->
+        <div class="card card-custom">
+          <div class="card-body">
+            <h2 class="vision-header">Our Vision</h2>
+            <p class="vision-paragraph">
+              "I envision myself as a confident, resilient, and compassionate person, living a purposeful life. I see myself growing into a wise and empathetic leader, inspiring others to reach their potential. I envision a future where technology seamlessly integrates with our daily lives, enhancing our productivity, creativity, and well-being. I see the internet as a boundless platform for knowledge sharing, collaboration, and innovation, connecting people across the globe."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meet Our Team Section -->
+    <div class="row mt-5">
+      <h2 class="text-center mb-5">Meet Our Team</h2>
+      <div class="col-md-4 team-member text-center">
+        <img style="height: 200px;" src="images/IMG-20240603-WA0115.jpg" alt="Nakungu Esther" class="img-fluid">
+        <h4>Nakungu Esther</h4>
+        <p>Content Writer</p>
+      </div>
+      <div class="col-md-4 team-member text-center">
+        <img style="height: 200px;" src="images/Refactory-Dreams-Unfolding.jpeg" alt="Samson Kapeyi" class="img-fluid">
+        <h4>Samson Kapeyi</h4>
+        <p>Software Engineer</p>
+      </div>
+      <div class="col-md-4 team-member text-center">
+        <img style="height: 200px;" src="images/mdd.image.jpeg" alt="Julia" class="img-fluid">
+        <h4>Julia</h4>
+        <p>Leadership and Personal Development</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="text-center p-3">
+        © 2024 My About | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
